@@ -17,25 +17,20 @@
     margin-top: 3%;
 }
 .flexbox-item {
-    width: 400px;
+    width: 20%;
     margin: 10px;
     border: 3px hidden #333;
-    background-color: #dfdfdf;
 }
 .flexbox-item-1 {
-    width: 400px;
-    height: 200px;
+    width: 25%;
     margin: 10px;
     border: 3px hidden #333;
-    background-color: #dfdfdf;
 }
 .flexbox-item-2 {
-    width: 400px;
-    margin: 10px;
+    width: 15%;
+    margin: 2%;
     margin-left: 10%;
-    height: 200px;
     border: 3px hidden #333;
-    background-color: #dfdfdf;
 }
 * {
     margin: 0;
