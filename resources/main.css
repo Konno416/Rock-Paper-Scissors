@@ -35,4 +35,11 @@
 * {
     margin: 0;
     padding: 0;
+    overflow: hidden;
+}
+
+.the-text {
+    text-align: center;
+    font-size: 200%;
+    color: magenta;
 }
