@@ -38,7 +38,7 @@ $(".img3").click(function(){
 })
 
 function botOptions(){
-    botChoice = choices[Math.floor(Math.random(1)*3)]
+    botChoice = choices[Math.floor(Math.random()*4 -1)]
     return botChoice
 }
 
@@ -46,34 +46,43 @@ function whoWon(){
     botOptions()
     if(playerChoice === "rock"){
         if(botChoice === "rock"){
+            $(".computerChose").text("Computer chose rock!");
             tieWin();
         }
         else if(botChoice === "paper"){
+            $(".computerChose").text("Computer chose paper!");
             botWin();
         }
         else if(botChoice === "scissors"){
+            $(".computerChose").text("Computer chose scissors!");
             playerWin();
         }
     }
     else if(playerChoice === "paper"){
         if(botChoice === "rock"){
+            $(".computerChose").text("Computer chose rock!");
             playerWin();
         }
         else if(botChoice === "paper"){
+            $(".computerChose").text("Computer chose paper!");
             tieWin();
         }
         else if(botChoice === "scissors"){
+            $(".computerChose").text("Computer chose scissors!");
             botWin();
         }
     }
     else if(playerChoice === "scissors"){
         if(botChoice === "rock"){
+            $(".computerChose").text("Computer chose rock!");
             botWin();
         }
         else if(botChoice === "paper"){
+            $(".computerChose").text("Computer chose paper!");
             playerWin();
         }
         else if(botChoice === "scissors"){
+            $(".computerChose").text("Computer chose scissors!");
             tieWin();
         }
     }
